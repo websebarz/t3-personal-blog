@@ -1,9 +1,9 @@
-import Layout from "../comps/layout";
 import type { NextPage } from "next";
-import utilStyles from "../styles/utils.module.css";
 import { getSortedPostsData } from "../lib/posts";
+import Layout from "../comps/layout";
 import Link from "next/link";
 import Date from "../comps/date";
+import utilStyles from "../styles/utils.module.css";
 
 const Home: NextPage = ({ allPostsData }) => {
   return (
@@ -12,7 +12,14 @@ const Home: NextPage = ({ allPostsData }) => {
         <p>
           Hello, I’m <strong>Seb</strong>. I’m a frontend developer and a
           customer service representative. You can contact me on{" "}
-          <a href="https://twitter.com/websebarz">Twitter</a>.
+          <a
+            href="https://twitter.com/websebarz"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Twitter
+          </a>
+          .
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>

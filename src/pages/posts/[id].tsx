@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Date from "../../comps/date";
-import utilStyles from "../../styles/utils.module.css";
 import Layout from "../../comps/layout";
+import utilStyles from "../../styles/utils.module.css";
 import { getAllPostIds, getPostData } from "../../lib/posts";
 
 const Post = ({ postData }) => {

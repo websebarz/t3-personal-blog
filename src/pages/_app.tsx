@@ -1,4 +1,3 @@
-// import Layout from "../comps/layout";
 import "../styles/globals.css";
 import type { AppType } from "next/dist/shared/lib/utils";
 
