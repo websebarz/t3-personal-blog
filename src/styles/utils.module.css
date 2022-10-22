@@ -77,3 +77,8 @@
   width: 30px;
   height: auto;
 }
+
+.listIcon:hover {
+  scale: 1.25;
+  transition-duration: 200ms;
+}

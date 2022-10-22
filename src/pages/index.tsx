@@ -108,7 +108,7 @@ const Home: NextPage = ({ allPostsData }) => {
           <li>
             <div className={utilStyles.listIcon}>
               <a
-                href="https://linkedin.com/in/websebarzz"
+                href="https://linkedin.com/in/websebarz"
                 target="_blank"
                 rel="noreferrer"
               >
